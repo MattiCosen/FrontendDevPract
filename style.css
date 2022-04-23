@@ -72,6 +72,11 @@ body {
     margin-bottom: 24px;
 }
 
+.value {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}
 
 .email__email {
     margin-bottom: 24px;
