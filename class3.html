@@ -13,20 +13,20 @@
 <body>
     <div class="login">
         <div class="form__container">
-            <img class="logo" src="./logos/logo_yard_sale.svg" alt="Logo">
-
-            <h1 class="tittle">Create a new password</h1>
-            <p class="subtitle">Enter a new password for your account</p>
+            <img class="logo" src="./logos/logo_yard_sale.svg" alt="Logo">  
      
             <form class="form" action="/">
+                <label class="label" for="email">Email Adress</label>
+                <input class="input input__email" type="text" id="email" placeholder="ejemplo@gmail.com" >
+
                 <label class="label" for="password">Password</label>
                 <input class="input input__password" type="password" id="password" placeholder="*********" >
 
-                <label class="label" for="new__password">Password</label>
-                <input class="input input__password" type="password" id="new__password" placeholder="*********" >
+                <input class="primary__button login__button" type="submit" value="Log in">
 
-                <input class="primary__button login__button" type="submit" value="Confirm">
+                <a href="/">Forgot your password?</a>
             </form>
+            <button class="secondary__button signup__button">Sign up</button>
         </div>
     </div>
 </body>
