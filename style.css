@@ -247,6 +247,47 @@ body {
     display: inline-block;
 }
 
+.mobile__menu {
+    padding: 24px;
+}
+
+.mobile__menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.mobile__menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+
+.mobile__menu ul li {
+    margin-bottom: 24px;
+}
+
+.mobile__menu .email {
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile__menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile__menu .signout {
+    font-size: var(--sm);
+    color: var(--hospital-green);
+}
+
+.mobile__menu ul:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
 @media (max-width: 640px) {
     .logo {
         display: block;
