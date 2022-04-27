@@ -46,6 +46,7 @@ nav {
     font-size: var(--lg);
     margin-bottom: 30px;
     text-align: start;
+    font-weight: bold;
 }
 
 .subtitle {
@@ -475,9 +476,20 @@ nav {
 
 .product__detail {
     width: 360px;
-    padding-bottom: 24px;
+    padding: 24px;
+    box-sizing: border-box;
     position: absolute;
     right: 0;
+}
+
+.title__container {
+    display: flex;
+}
+
+.title__container img {
+    transform: rotate(180deg);
+    margin-right: 14px;
+    align-items: center;
 }
 
 .product__detail_close {
